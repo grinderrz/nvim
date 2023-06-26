@@ -1,5 +1,7 @@
 {
   "aniseed": { "branch": "master", "commit": "44d2886a9ec38abac61b4c73c2e57fb752232cfe" },
   "lazy.nvim": { "branch": "main", "commit": "b7043f2983d7aead78ca902f3f2053907081859a" },
+  "rainbow": { "branch": "master", "commit": "18eeea32d9a0c2d0e83187db0738c9511700ac44" },
+  "vim-clojure-static": { "branch": "master", "commit": "fae5710a0b79555fe3296145be4f85148266771a" },
   "vim-sexp": { "branch": "master", "commit": "14464d4580af43424ed8f2614d94e62bfa40bb4d" }
 }

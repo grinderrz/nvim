@@ -1,6 +1,5 @@
 (module init
-  {autoload {nvim aniseed.nvim
-             core aniseed.core}})
+  {autoload {core aniseed.core}})
 
 (vim.api.nvim_set_option_value :number true {})
 (vim.api.nvim_set_option_value :relativenumber true {})
@@ -36,5 +35,3 @@
 (vim.keymap.set :n :Ô "<M-S-j>" {:remap true :silent true})
 (vim.keymap.set :n : "<M-S-k>" {:remap true :silent true})
 (vim.keymap.set :n :Ò "<M-S-l>" {:remap true :silent true})
-
-(set nvim.g.sexp_filetypes "*")

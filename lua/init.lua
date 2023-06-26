@@ -11,9 +11,8 @@ do
   _2amodule_locals_2a = (_2amodule_2a)["aniseed/locals"]
 end
 local autoload = (require("aniseed.autoload")).autoload
-local core, nvim = autoload("aniseed.core"), autoload("aniseed.nvim")
+local core = autoload("aniseed.core")
 do end (_2amodule_locals_2a)["core"] = core
-_2amodule_locals_2a["nvim"] = nvim
 vim.api.nvim_set_option_value("number", true, {})
 vim.api.nvim_set_option_value("relativenumber", true, {})
 vim.api.nvim_set_option_value("swapfile", false, {})
@@ -45,5 +44,4 @@ vim.keymap.set("n", "\195\147", "<M-S-h>", {remap = true, silent = true})
 vim.keymap.set("n", "\195\148", "<M-S-j>", {remap = true, silent = true})
 vim.keymap.set("n", "\239\163\191", "<M-S-k>", {remap = true, silent = true})
 vim.keymap.set("n", "\195\146", "<M-S-l>", {remap = true, silent = true})
-nvim.g.sexp_filetypes = "*"
 return _2amodule_2a

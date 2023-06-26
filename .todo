@@ -1,0 +1,19 @@
+- plugins
+  - treesitter
+  - conjure
+  - lsp
+  - telescope
+  - git stuff
+    - diffview
+  - neovide
+  - yabai
+  - svart
+
+- old stuff
+  - airline
+  - tslime (+ rebind to not clash with conjures run test)
+  - go stuff
+
+- tasks
+  - run aniseed out of lazy
+  - day/night themes switch
