@@ -16,4 +16,7 @@ vim.g["aniseed#env"] = {
   compile = true
 }
 
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
+
 require("lazy").setup("plugins")

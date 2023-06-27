@@ -1,15 +1,16 @@
 - plugins
-  - lsp
-  - conjure
   - telescope
   - git stuff
     - diffview
+  - ? which-key
+  - ? alpha-nvim
   - neovide
   - yabai
-  - svart
-  - which-key
-  - alpha-nvim
+  - ? svart
+  - lsp
+  - ? clj-condo
   + treesitter
+  + conjure
 
 - old stuff
   - airline

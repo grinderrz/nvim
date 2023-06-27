@@ -19,4 +19,9 @@ local function _1_()
 end
 table.insert(_2amodule_2a, {"guns/vim-sexp", version = "*", init = _1_})
 table.insert(_2amodule_2a, {"guns/vim-clojure-static", version = "*", enabled = false})
+local function _2_()
+  vim.g["conjure#log#botright"] = true
+  return nil
+end
+table.insert(_2amodule_2a, {"Olical/conjure", version = "*", init = _2_})
 return _2amodule_2a
