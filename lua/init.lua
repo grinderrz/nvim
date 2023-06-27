@@ -47,5 +47,5 @@ vim.keymap.set("n", "\195\148", "<M-S-j>", {remap = true, silent = true})
 vim.keymap.set("n", "\239\163\191", "<M-S-k>", {remap = true, silent = true})
 vim.keymap.set("n", "\195\146", "<M-S-l>", {remap = true, silent = true})
 vim.cmd("syntax off")
-ts_configs.setup({highlight = {enable = true}, indent = {enable = true}, ensure_installed = {"bash", "c", "clojure", "fennel", "html", "javascript", "json", "lua", "luadoc", "luap", "markdown", "markdown_inline", "query", "regex", "sql", "vim", "yaml"}, rainbow = {enable = true, strategy = ts_rainbow.strategy.global}})
+ts_configs.setup({rainbow = {enable = true, strategy = ts_rainbow.strategy.global}})
 return _2amodule_2a

@@ -1,5 +1,4 @@
 - plugins
-  - treesitter
   - lsp
   - conjure
   - telescope
@@ -10,6 +9,7 @@
   - svart
   - which-key
   - alpha-nvim
+  + treesitter
 
 - old stuff
   - airline
@@ -17,6 +17,7 @@
   - go stuff
 
 - tasks
-  - run aniseed out of lazy
   - day/night themes switch
-  - fix rainbow loading for treesitter
+  - run aniseed out of lazy
+  + fix rainbow loading for treesitter
+    + sort of works for now, thanks ts-configs.setup can be called several times

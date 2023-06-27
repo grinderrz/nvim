@@ -41,15 +41,9 @@
 
 ;; treesitter stuff
 (vim.cmd "syntax off")
+;; ts-rainbow fails to laod in plugins.treesitter
+;; but is needed to get strategy
 ;; TODO fix loading ts-rainbow inside treesitter plugin module
-(ts-configs.setup {:highlight {:enable true}
-                   :indent {:enable true}
-                   :ensure_installed [:bash :c
-                                      :clojure :fennel
-                                      :html :javascript :json
-                                      :lua :luadoc :luap
-                                      :markdown :markdown_inline
-                                      :query :regex :sql
-                                      :vim :yaml]
-                   :rainbow {:enable true
-                             :strategy ts-rainbow.strategy.global}})
+(ts-configs.setup
+  {:rainbow {:enable true
+             :strategy ts-rainbow.strategy.global}})
