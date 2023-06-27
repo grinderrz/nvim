@@ -1,4 +1,4 @@
-local _2afile_2a = "/Users/grigory.glushko/.config/nvim/fnl/init.fnl"
+local _2afile_2a = "fnl/init.fnl"
 local _2amodule_name_2a = "init"
 local _2amodule_2a
 do
@@ -11,8 +11,10 @@ do
   _2amodule_locals_2a = (_2amodule_2a)["aniseed/locals"]
 end
 local autoload = (require("aniseed.autoload")).autoload
-local core = autoload("aniseed.core")
+local core, ts_configs, ts_rainbow = autoload("aniseed.core"), autoload("nvim-treesitter.configs"), autoload("ts-rainbow")
 do end (_2amodule_locals_2a)["core"] = core
+_2amodule_locals_2a["ts-configs"] = ts_configs
+_2amodule_locals_2a["ts-rainbow"] = ts_rainbow
 vim.api.nvim_set_option_value("number", true, {})
 vim.api.nvim_set_option_value("relativenumber", true, {})
 vim.api.nvim_set_option_value("swapfile", false, {})
@@ -44,4 +46,6 @@ vim.keymap.set("n", "\195\147", "<M-S-h>", {remap = true, silent = true})
 vim.keymap.set("n", "\195\148", "<M-S-j>", {remap = true, silent = true})
 vim.keymap.set("n", "\239\163\191", "<M-S-k>", {remap = true, silent = true})
 vim.keymap.set("n", "\195\146", "<M-S-l>", {remap = true, silent = true})
+vim.cmd("syntax off")
+ts_configs.setup({highlight = {enable = true}, indent = {enable = true}, ensure_installed = {"bash", "c", "clojure", "fennel", "html", "javascript", "json", "lua", "luadoc", "luap", "markdown", "markdown_inline", "query", "regex", "sql", "vim", "yaml"}, rainbow = {enable = true, strategy = ts_rainbow.strategy.global}})
 return _2amodule_2a

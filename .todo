@@ -1,13 +1,15 @@
 - plugins
   - treesitter
-  - conjure
   - lsp
+  - conjure
   - telescope
   - git stuff
     - diffview
   - neovide
   - yabai
   - svart
+  - which-key
+  - alpha-nvim
 
 - old stuff
   - airline
@@ -17,3 +19,4 @@
 - tasks
   - run aniseed out of lazy
   - day/night themes switch
+  - fix rainbow loading for treesitter
