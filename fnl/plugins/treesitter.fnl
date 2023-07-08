@@ -18,6 +18,7 @@
           :ensure_installed [:bash :c
                              :clojure :fennel
                              :html :javascript :json
+                             :go
                              :lua :luadoc :luap
                              :markdown :markdown_inline
                              :query :regex :sql

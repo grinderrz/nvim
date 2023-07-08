@@ -17,6 +17,11 @@
 (vim.api.nvim_set_option_value :iminsert 0 {})
 (vim.api.nvim_set_option_value :imsearch 0 {})
 
+(vim.api.nvim_set_option_value :ts 2 {})
+(vim.api.nvim_set_option_value :sw 2 {})
+(vim.api.nvim_set_option_value :sts 2 {})
+
+
 (set vim.opt.listchars {:tab "▸ " :eol "¬"})
 (vim.cmd "highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen")
 (vim.cmd "match ExtraWhitespace /\\s\\+$\\|\\t/")

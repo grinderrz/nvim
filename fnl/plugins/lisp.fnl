@@ -5,17 +5,15 @@
   *module*
   {1 "guns/vim-sexp"
    :version "*"
-   :init (fn [] (set vim.g.sexp_filetypes "*"))})
+   :init (fn [] (set vim.g.sexp_filetypes "clojure,scheme,lisp,timl,fennel"))})
 
 (table.insert
   *module*
-  {1 "guns/vim-clojure-static"
-   :enabled false
+  {1 "tpope/vim-sexp-mappings-for-regular-people"
    :version "*"})
 
 (table.insert
   *module*
   {1 "Olical/conjure"
    :version "*"
-   ;;let g:conjure#log#botright = v:true
    :init (fn [] (set vim.g.conjure#log#botright true))})

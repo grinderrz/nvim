@@ -18,5 +18,5 @@ table.insert(_2amodule_2a, {"HiPhish/nvim-ts-rainbow2", version = "*"})
 local function _1_(_, opts)
   return ts_configs.setup(opts)
 end
-table.insert(_2amodule_2a, {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate", event = {"BufReadPost", "BufNewFile"}, dependencies = {"HiPhish/nvim-ts-rainbow2"}, opts = {highlight = {enable = true}, indent = {enable = true}, ensure_installed = {"bash", "c", "clojure", "fennel", "html", "javascript", "json", "lua", "luadoc", "luap", "markdown", "markdown_inline", "query", "regex", "sql", "vim", "yaml"}}, config = _1_})
+table.insert(_2amodule_2a, {"nvim-treesitter/nvim-treesitter", build = ":TSUpdate", event = {"BufReadPost", "BufNewFile"}, dependencies = {"HiPhish/nvim-ts-rainbow2"}, opts = {highlight = {enable = true}, indent = {enable = true}, ensure_installed = {"bash", "c", "clojure", "fennel", "html", "javascript", "json", "go", "lua", "luadoc", "luap", "markdown", "markdown_inline", "query", "regex", "sql", "vim", "yaml"}}, config = _1_})
 return _2amodule_2a
