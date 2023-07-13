@@ -5,7 +5,8 @@
   *module*
   {1 "guns/vim-sexp"
    :version "*"
-   :init (fn [] (set vim.g.sexp_filetypes "clojure,scheme,lisp,timl,fennel"))})
+   :init (fn []
+           (set vim.g.sexp_filetypes "clojure,scheme,lisp,timl,fennel"))})
 
 (table.insert
   *module*
