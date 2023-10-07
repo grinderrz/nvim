@@ -1,4 +1,4 @@
-local _2afile_2a = "fnl/plugins/markdown.fnl"
+local _2afile_2a = "/Users/grigory.glushko/.config/nvim/fnl/plugins/markdown.fnl"
 local _2amodule_name_2a = "plugins.markdown"
 local _2amodule_2a
 do

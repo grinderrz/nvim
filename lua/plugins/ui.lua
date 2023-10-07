@@ -1,4 +1,4 @@
-local _2afile_2a = "fnl/plugins/ui.fnl"
+local _2afile_2a = "/Users/grigory.glushko/.config/nvim/fnl/plugins/ui.fnl"
 local _2amodule_name_2a = "plugins.ui"
 local _2amodule_2a
 do

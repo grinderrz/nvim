@@ -44,6 +44,15 @@
 (vim.keymap.set :n :Ò "<M-S-l>" {:remap true :silent true})
 
 
+(vim.keymap.set :i :<F4> "<C-v>0 <BS>" {:remap true :silent true})
+(vim.keymap.set :i :<F2> "<C-v>2 <BS>" {:remap true :silent true})
+(vim.keymap.set :i :<F3> "<C-v>3 <BS>" {:remap true :silent true})
+(vim.keymap.set :i :<F5> "<C-v>31 <BS>" {:remap true :silent true})
+(vim.keymap.set :i :<F6> "<C-v>30 <BS>" {:remap true :silent true})
+(vim.keymap.set :i :<F7> "<C-v>16 <BS>" {:remap true :silent true})
+
+
+
 ;; treesitter stuff
 (vim.cmd "syntax off")
 ;; ts-rainbow fails to laod in plugins.treesitter

@@ -1,4 +1,4 @@
-local _2afile_2a = "fnl/init.fnl"
+local _2afile_2a = "/Users/grigory.glushko/.config/nvim/fnl/init.fnl"
 local _2amodule_name_2a = "init"
 local _2amodule_2a
 do
@@ -49,6 +49,12 @@ vim.keymap.set("n", "\195\147", "<M-S-h>", {remap = true, silent = true})
 vim.keymap.set("n", "\195\148", "<M-S-j>", {remap = true, silent = true})
 vim.keymap.set("n", "\239\163\191", "<M-S-k>", {remap = true, silent = true})
 vim.keymap.set("n", "\195\146", "<M-S-l>", {remap = true, silent = true})
+vim.keymap.set("i", "<F4>", "<C-v>0 <BS>", {remap = true, silent = true})
+vim.keymap.set("i", "<F2>", "<C-v>2 <BS>", {remap = true, silent = true})
+vim.keymap.set("i", "<F3>", "<C-v>3 <BS>", {remap = true, silent = true})
+vim.keymap.set("i", "<F5>", "<C-v>31 <BS>", {remap = true, silent = true})
+vim.keymap.set("i", "<F6>", "<C-v>30 <BS>", {remap = true, silent = true})
+vim.keymap.set("i", "<F7>", "<C-v>16 <BS>", {remap = true, silent = true})
 vim.cmd("syntax off")
 ts_configs.setup({rainbow = {enable = true, strategy = ts_rainbow.strategy.global}})
 return _2amodule_2a
