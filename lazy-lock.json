@@ -1,9 +1,9 @@
 {
   "aniseed": { "branch": "master", "commit": "44d2886a9ec38abac61b4c73c2e57fb752232cfe" },
-  "conjure": { "branch": "master", "commit": "2482871cbe0d1b85d331465cf7f065d5d2a7e2ac" },
-  "lazy.nvim": { "branch": "main", "commit": "3ad55ae678876516156cca2f361c51f7952a924b" },
+  "conjure": { "branch": "master", "commit": "58c46d1f4999679659a5918284b574c266a7ac83" },
+  "lazy.nvim": { "branch": "main", "commit": "5aaafcb3019e04dd38a011b3d4c8a0f130c422ef" },
   "markdown-preview.nvim": { "branch": "master", "commit": "9becceee5740b7db6914da87358a183ad11b2049" },
-  "nvim-treesitter": { "branch": "master", "commit": "4c4d586a05e236d8199ab6faab8cb733a9b5bd24" },
+  "nvim-treesitter": { "branch": "master", "commit": "957f3f8c15a88ef0f0c77ecd13edf2e2578f176e" },
   "nvim-ts-rainbow2": { "branch": "master", "commit": "b3120cd5ae9ca524af9cb602f41e12e301fa985f" },
   "tslime.vim": { "branch": "main", "commit": "9b2b99e409336584103b83c597fdb6234875ae25" },
   "vim-go": { "branch": "master", "commit": "8c4db1c61432511a3aa55971dabb2171cbcba7b1" },
